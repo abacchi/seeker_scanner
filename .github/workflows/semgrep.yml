@@ -1,8 +1,8 @@
 name: Semgrep
 
-on:
+on: [push, pull_request]
   # Scan changed files in PRs, block on new issues only (existing issues ignored)
-  on: [push, pull_request]
+  
 
   # Schedule this job to run at a certain time, using cron syntax
   # Note that * is a special character in YAML so you have to quote this string
