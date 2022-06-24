@@ -20,9 +20,6 @@ class Database(Base):
     def __repr__(self):
         return f"Database(id={self.id!r}, name={self.name!r}, typeOf={self.typeOf!r})" 
         
-
-
-
 def main():
     session = Session()
 
